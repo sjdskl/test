@@ -5,7 +5,7 @@
 
 **病症对应检测项和指标项接口**
 ----
-<span id="fff"></span>
+<span id="fff">123</span>
 * **URL**
 
   `<auth_host>mapi/detect/v1/base/getDetectionAndIndicators`
@@ -292,7 +292,7 @@ object|null|object型值为空时，返回null
 
 **通过检测项ID获取检测项和指标信息**
 ----
-<span id="ggg"></span>
+<span id="ggg">123</span>
 * **URL**
 
   `<auth_host>mapi/detect/v1/base/getContinueDetections`
