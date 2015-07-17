@@ -1,11 +1,10 @@
 # 检测控制器 #
-* [1. 病症对应检测项和指标项接口](#fff)
-* [2. 通过检测项ID获取检测项和指标信息(为下次继续检测预留接口)](#ggg)
+* [1. 病症对应检测项和指标项接口](#gdi)
+* [2. 通过检测项ID获取检测项和指标信息(为下次继续检测预留接口)](#gd)
 
 
-**病症对应检测项和指标项接口**
+**病症对应检测项和指标项接口**<p id='gdi'></p>
 ----
-<span id="fff">123</span>
 * **URL**
 
   `<auth_host>mapi/detect/v1/base/getDetectionAndIndicators`
@@ -290,9 +289,9 @@ object|null|object型值为空时，返回null
 }
   ```
 
-**通过检测项ID获取检测项和指标信息**
+**通过检测项ID获取检测项和指标信息**<p id='gd'></p>
 ----
-<span id="ggg">123</span>
+
 * **URL**
 
   `<auth_host>mapi/detect/v1/base/getContinueDetections`
